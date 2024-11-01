@@ -1,0 +1,71 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    background-color: rgb(10, 10, 78);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header{
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.2;
+    color: rgb(10, 10, 78);;   
+}
+
+.bar{
+    background-color: black;
+    height: 2px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+#number, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    color: rgb(10, 10, 78);
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: rgba(253, 252, 252, 0.35) 0px 5px 15px;
+}
+
+.evenNumber, .oddNumber{
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+} 
+.evenNumber{
+    margin-bottom: 5px;
+    background-color: rgba(3, 109, 12, 0.945);
+}
+
+.oddNumber {
+    background-color: rgb(112, 8, 8);
+}
